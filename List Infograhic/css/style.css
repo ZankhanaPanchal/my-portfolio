@@ -1,0 +1,90 @@
+body{
+    
+    background-color: rgb(236, 233, 233);
+}
+
+
+/*ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}*/
+.boxdiv{
+    max-width: 500px;
+    margin: auto;
+    border-left: 10px solid white;
+    padding: 50px 0;
+    float: right;
+    
+}
+.boxdiv div{
+    
+    padding: 40px 80px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -50px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 10px solid white;
+    text-align: center;
+    
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.5), 0 0 15px rgba(0,0,0,0.5);
+
+    }
+
+ small{
+        display: block;
+        font-size: 14px;
+        padding: 12px 0 0 0;
+    }
+.boxdiv .box1{
+    background: linear-gradient(to left,rgb(221, 176, 41), rgb(237, 163, 88), rgb(237, 147, 57));
+    border: 2px solid  rgb(234, 204, 114) ;
+}
+.box1 span{
+    background: linear-gradient(to left,rgb(221, 176, 41), rgb(237, 163, 88), rgb(237, 147, 57));
+    
+}
+.boxdiv .box2{
+    background: linear-gradient(to left,rgb(98, 224, 238),rgb(3, 179, 198));
+    border-bottom: 2px solid rgb(139, 226, 236);
+}
+.box2 span{
+    background: linear-gradient(to left,rgb(98, 224, 238),rgb(3, 179, 198));
+}
+
+.boxdiv .box3{
+    background: linear-gradient(to left,rgb(182, 229, 100),rgb(58, 162, 58));
+    border-bottom: 2px solid rgb(188, 224, 127);
+}
+.box3 span{
+    background: linear-gradient(to left,rgb(182, 229, 100),rgb(58, 162, 58));
+}
+.boxdiv .box4{
+    background: linear-gradient(to left,rgb(100, 232, 201),rgb(81, 173, 164));
+    border-bottom: 2px solid rgb(115, 230, 203);
+   
+}
+.box4 span{
+    background: linear-gradient(to left,rgb(100, 232, 201),rgb(81, 173, 164));
+}
+
+span ::before{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 10px 0 0 0;
+
+}
