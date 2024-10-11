@@ -1,0 +1,205 @@
+body{
+   background-color: rgb(186, 177, 177);
+}
+*{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   width: 660px;
+   margin: auto;
+}
+p{
+   font-size: 10px;
+   padding: 5px;
+}
+.relative-box{
+   position: relative;
+   width: 250px;
+   background-color: #f1ab9f;
+   border: 15px solid white;
+   border-radius: 0 130px 0 130px;
+   text-align: center;
+   padding: 60px 20px 60px 20px;
+   color: white;
+   box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.2);
+   margin: 0 0 40px 0;
+  
+}
+strong{
+   display: block;
+   font-size: 22px;
+   text-transform: uppercase;
+}
+.content strong{
+   padding: 2px;
+}
+.content{
+   padding: 0 20px 0 46px ;
+}
+
+/*---------------------Box 1 -------------------------*/
+.box1 .relative-box{
+   background: linear-gradient(to right,#ecb483, #f87272);
+}
+.circle1{
+   position: absolute;
+   background: linear-gradient(to right,#ecb483, #f87272);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 10px solid  white;
+   outline: 10px solid #ecb483;
+   box-shadow: 0 0 0 20px #f96f6f; 
+   text-align: center;
+   padding-top: 0px;
+   top: 30px;
+   left: -45px;
+  
+}
+
+.box1{
+   position: relative;
+   float: left;
+  
+}
+
+
+/*---------------------Box 2 -------------------------*/
+.box2{
+   float: right;
+   padding: 60px 0 0 0;
+}
+.box2 .relative-box{
+   border-radius: 130px 0 130px 0 ;
+   background: linear-gradient(to right, #f87272, #ed2061);
+   
+}
+
+.box2 .content{
+   padding:  20px 30px 0 10px  ;
+}
+
+.circle2{
+   position: absolute;
+   background: linear-gradient(to right,#7de3f0,#11a7bb);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 10px solid  white;
+   outline: 10px solid  rgb(104, 207, 225);
+   box-shadow: 0 0 0 20px rgb(55, 163, 182); 
+   text-align: center;
+   padding-top: 0px;
+   top: 30px;
+   right: -45px;
+}
+/*---------------------Box 3 -------------------------*/
+.box3 .relative-box{
+   background: linear-gradient(to right,#ea7ca4, #5b0b94);
+}
+
+.circle3{
+   position: absolute;
+   background: linear-gradient(to right,#ea7ca4, #5b0b94);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 10px solid  white;
+   outline: 10px solid #f87272;
+   box-shadow: 0 0 0 20px #ed2061; 
+   text-align: center;
+   padding-top: 0px;
+   top: 30px;
+   left: -45px;
+  
+}
+.box3{
+   position: relative;
+   float: left;
+}
+
+/*---------------------Box 4 -------------------------*/
+
+.box4{
+   float: right;
+  
+}
+.box4 .relative-box{
+   border-radius: 130px 0 130px 0 ;
+   background: linear-gradient(to right, #a938ad, #7c3aac);
+}
+
+.box4 .content{
+   padding:  20px 30px 0 10px  ;
+}
+
+.circle4{
+   position: absolute;
+   background: linear-gradient(to right, #a938ad, #7c3aac);;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 10px solid  white;
+   outline: 10px solid  #7c3aac;
+   box-shadow: 0 0 0 20px #a938ad; 
+   text-align: center;
+   padding-top: 0px;
+   top: 30px;
+   right: -45px;
+}
+
+/*---------------------Box 5 -------------------------*/
+
+.box5 .relative-box{
+   background: linear-gradient(to right,#1a8dc2, #6bbbd6);
+}
+
+.circle5{
+   position: absolute;
+   background: linear-gradient(to right,#1a8dc2, #6bbbd6);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 10px solid  white;
+   outline: 10px solid #ecb483;
+   box-shadow: 0 0 0 20px #f96f6f;  
+   text-align: center;
+   padding-top: 0px;
+   top: 30px;
+   left: -45px;
+  
+}
+.box5{
+   position: relative;
+   float: left;
+}
+
+/*---------------------Box 6 -------------------------*/
+
+.box6{
+   float: right;
+   
+}
+.box6 .relative-box{
+   border-radius: 130px 0 130px 0 ;
+   background: linear-gradient(to right,#e0a40c,#d1b348,#d9a319);
+}
+
+.box6 .content{
+   padding:  20px 30px 0 10px  ;
+}
+
+.circle6{
+   position: absolute;
+   background: linear-gradient(to right,#dfad2c,#e9ca5c);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 10px solid  white;
+   outline: 10px solid  rgb(104, 207, 225);
+   box-shadow: 0 0 0 20px rgb(55, 163, 182); 
+   text-align: center;
+   padding-top: 0px;
+   top: 30px;
+   right: -45px;
+}
